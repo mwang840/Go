@@ -14,4 +14,7 @@ func main() {
 
 	var e int
 	fmt.Println(e)
+
+	var f float32 = 1.1
+	fmt.Println(f)
 }
