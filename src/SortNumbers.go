@@ -1,20 +1,21 @@
 package src
 
 //Will be implementing a swap function (Bubble Sort)
-import("fmt"
- 		"sort"
+import (
+	"sort"
 )
-//Main function to test swapped values
+
+// Main function to test swapped values
 func sortNumbers(numbers []int) []int {
-	var sorted[]int
-	if(numbers == NULL){
+	var sorted []int
+	if numbers == nil {
 		return nil
-	}else {
+	} else {
 		sorted = sort.Ints(numbers)
 		return sorted
 	}
 }
 
-func main(){
-	fmtPrintln(sortNumbers([1, 2, 3, 10, 5]))
+func main() {
+	fmtPrintln()
 }
